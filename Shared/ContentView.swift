@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack { Color(red: 0.10, green: 0.74, blue: 0.61).ignoresSafeArea()
+        ZStack { Color(red: 0.16, green: 0.50, blue: 0.73).ignoresSafeArea()
             VStack {Image("ava").resizable().aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/).frame(width: 200, height: 200).clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/).overlay(Circle().stroke(lineWidth: 5))
                 Text("Baiel Zarlykov")
                     .font(.title)
